@@ -1,0 +1,6 @@
+Algorithm,nanoseconds,microseconds,milliseconds,seconds,hours
+Quicksort,2211,2.211,0.002211,2.211e-06,6.14167e-10
+Merge sort,3177,3.177,0.003177,3.177e-06,8.825e-10
+Selection sort,1643,1.643,0.001643,1.643e-06,4.56389e-10
+Insertion sort,1244,1.244,0.001244,1.244e-06,3.45556e-10
+Bubble sort,1393,1.393,0.001393,1.393e-06,3.86944e-10

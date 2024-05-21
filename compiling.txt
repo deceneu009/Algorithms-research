@@ -1,0 +1,33 @@
+============================================
+Test.cpp file:
+--------------------------------------------
+For Windows
+
+g++ -o [name.exe] test.cpp -g
+
+For linux
+
+g++ -o [name] test.cpp -g
+
+Or(for Linux):
+(better optimizer)
+
+g++ -O3 -std=c++17 test.cpp -o test
+---------------------------------------------
+=============================================
+File generators:
+---------------------------------------------
+For Windows
+
+g++ -o [name.exe] List_generator_random -g
+g++ -o [name.exe] List_generator_reverse -g
+g++ -o [name.exe] List_generator_almost -g
+
+For linux
+
+g++ -o [name] List_generator_random -g
+g++ -o [name] List_generator_reverse -g
+g++ -o [name] List_generator_almost -g
+
+---------------------------------------------
+=============================================
