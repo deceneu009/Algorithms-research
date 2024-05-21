@@ -126,7 +126,7 @@ if choice == 1:
             if sys.platform.startswith("linux") or sys.platform == "darwin":
                 NameOfPlot = "results/ResultsPlots/" + Fn + ".svg"
             elif sys.platform == "win32":
-                NameOfPlot = "results\ResultsPlots\\" + Fn + ".svg"
+                NameOfPlot = "results\\ResultsPlots\\" + Fn + ".svg"
 
             plt.savefig(NameOfPlot)
             plt.show()
