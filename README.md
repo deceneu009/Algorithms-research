@@ -10,7 +10,7 @@ and in different sizes(from 10 - 100000000...and 1 billion just for fun and gigg
 
 The program ran on the next specs:
 
-Recommended operating systems: Linux and Windows
+Recommended operating systems: Linux and Windows(I hope...)
 
 CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
 
