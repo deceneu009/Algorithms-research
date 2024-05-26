@@ -22,7 +22,12 @@ private:
 public:
     Timer(std::string FileName)
     {
-        filename = "results/ResultsCSV/" + FileName;
+        #if defined(__linux__)
+            filename = "results/ResultsCSV/" + FileName;
+        #elif defined(__WIN32) || defined(__WIN64)
+            filename = R"(results\ResultsCSV\)" + FileName;
+        #endif
+        
         results.open(filename, std::ios_base::app);
         if (it == -1)
         {
