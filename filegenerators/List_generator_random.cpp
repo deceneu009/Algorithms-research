@@ -7,7 +7,7 @@
 int main()
 {
     long int size, *arr;
-    AllocationMetrics aloc;
+    //AllocationMetrics aloc;
     std::ofstream Size1("sizefiles/random/size1random.txt");
     if (Size1.is_open())
     {
