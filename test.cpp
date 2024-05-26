@@ -182,42 +182,42 @@ void selection_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size2random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size2random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size3random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size3random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size4random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size4random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size5random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size5random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size6random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size6random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size7random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size7random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size8random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size8random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size9random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size9random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
         }
     }
@@ -232,42 +232,42 @@ void selection_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size2rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size2rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size3rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size3rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size4rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size4rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size5rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size5rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size6rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size6rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size7rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size7rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size8rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size8rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size9rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size9rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
         }
     }
@@ -277,47 +277,47 @@ void selection_sort(long int size)
     {
         if (size == 10)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size1Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size1Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size2Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size2Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size3Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size3Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size4Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size4Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size5Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size5Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size6Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size6Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size7Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size7Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size8Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size8Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size9Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size9Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
         }
     }
@@ -700,7 +700,7 @@ void insertion_sort(long int size)
         }
     }
 #elif defined(_WIN32) || defined(_WIN64)
-    if (choice == 1)
+        if (choice == 1)
     {
         if (size == 10)
         {
@@ -709,42 +709,42 @@ void insertion_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size2random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size2random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size3random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size3random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size4random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size4random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size5random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size5random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size6random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size6random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size7random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size7random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size8random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size8random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size9random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size9random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
         }
     }
@@ -759,42 +759,42 @@ void insertion_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size2rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size2rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size3rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size3rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size4rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size4rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size5rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size5rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size6rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size6rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size7rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size7rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size8rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size8rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size9rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size9rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
         }
     }
@@ -804,47 +804,47 @@ void insertion_sort(long int size)
     {
         if (size == 10)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size1Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size1Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size2Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size2Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size3Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size3Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size4Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size4Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size5Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size5Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size6Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size6Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size7Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size7Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size8Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size8Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size9Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size9Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
         }
     }
@@ -1049,7 +1049,7 @@ void bubble_sort(long int size)
         }
     }
 #elif defined(_WIN32) || defined(_WIN64)
-    if (choice == 1)
+        if (choice == 1)
     {
         if (size == 10)
         {
@@ -1058,42 +1058,42 @@ void bubble_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size2random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size2random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size3random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size3random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size4random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size4random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size5random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size5random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size6random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size6random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size7random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size7random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size8random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size8random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\random/size9random.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\random\size9random.txt)");
             NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
         }
     }
@@ -1108,42 +1108,42 @@ void bubble_sort(long int size)
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size2rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size2rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size3rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size3rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size4rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size4rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size5rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size5rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size6rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size6rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size7rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size7rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size8rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size8rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\reverse/size9rev.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size9rev.txt)");
             NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
         }
     }
@@ -1153,47 +1153,47 @@ void bubble_sort(long int size)
     {
         if (size == 10)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size1Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size1Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
         }
         else if (size == 100)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size2Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size2Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
         }
         else if (size == 1000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size3Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size3Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
         }
         else if (size == 10000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size4Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size4Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
         }
         else if (size == 100000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size5Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size5Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
         }
         else if (size == 1000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size6Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size6Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
         }
         else if (size == 10000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size7Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size7Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
         }
         else if (size == 100000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size8Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size8Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
         }
         else if (size == 1000000000)
         {
-            inputFile.open(R"(filegenerators\sizefiles\almostSorted/size9Almost.txt)");
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size9Almost.txt)");
             NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
         }
     }
@@ -1350,50 +1350,50 @@ void RunBenchmarkRandom()
 
 #elif defined(_WIN32) || defined(_WIN64)
     if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random\size1random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size2random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size3random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size4random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size5random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size6random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size7random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size8random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size9random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
-    }
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size1random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size2random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size3random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size4random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size5random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size6random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size7random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size8random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size9random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
+        }
 #endif
 
     if (!inputFile.is_open())
@@ -1504,50 +1504,50 @@ void RunBenchmarkRandom()
 
 #elif defined(_WIN32) || defined(_WIN64)
     if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random\size1random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size2random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size3random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size4random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size5random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size6random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size7random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size8random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\random/size9random.txt)");
-        NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
-    }
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size1random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size2random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size3random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size4random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size5random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size6random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size7random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size8random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\random\size9random.txt)");
+            NameOfFile = R"(ResultsRandom\ResultsRandom_Size9.csv)";
+        }
 #endif
 
     if (!inputFile.is_open())
@@ -1706,52 +1706,51 @@ void RunBenchmarkReversed()
         NameOfFile = "ResultsReverse/ResultsReverse_Size9.csv";
     }
 #elif defined(_WIN32) || defined(_WIN64)
-    if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse\size1rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size2rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size3rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size4rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size5rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size6rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size7rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size8rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size9rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
-    }
-
+            if (size == 10)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size1rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size2rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size3rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size4rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size5rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size6rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size7rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size8rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size9rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
+        }
 #endif
 
     if (!inputFile.is_open())
@@ -1859,51 +1858,51 @@ void RunBenchmarkReversed()
         NameOfFile = "ResultsReverse/ResultsReverse_Size9.csv";
     }
 #elif defined(_WIN32) || defined(_WIN64)
-    if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse\size1rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size2rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size3rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size4rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size5rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size6rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size7rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size8rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\reverse/size9rev.txt)");
-        NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
-    }
+            if (size == 10)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size1rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size2rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size3rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size4rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size5rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size6rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size7rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size8rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\reverse\size9rev.txt)");
+            NameOfFile = R"(ResultsReverse\ResultsReverse_Size9.csv)";
+        }
 
 #endif
 
@@ -2065,51 +2064,51 @@ void RunBenchmarkAlmostSorted()
 
 #elif defined(__WIN32) || defined(__WIN64)
 
-    if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size1Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size2Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size3Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size4Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size5Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size6Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size7Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size8Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size9Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
-    }
+           if (size == 10)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size1Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size2Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size3Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size4Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size5Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size6Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size7Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size8Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size9Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
+        }
 
 #endif
 
@@ -2220,51 +2219,51 @@ void RunBenchmarkAlmostSorted()
 
 #elif defined(__WIN32) || defined(__WIN64)
 
-    if (size == 10)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size1Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
-    }
-    else if (size == 100)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size2Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
-    }
-    else if (size == 1000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size3Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
-    }
-    else if (size == 10000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size4Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
-    }
-    else if (size == 100000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size5Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
-    }
-    else if (size == 1000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size6Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
-    }
-    else if (size == 10000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size7Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
-    }
-    else if (size == 100000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size8Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
-    }
-    else if (size == 1000000000)
-    {
-        inputFile.open(R"(filegenerators\sizefiles\almostSorted/size9Almost.txt)");
-        NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
-    }
+            if (size == 10)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size1Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size1.csv)";
+        }
+        else if (size == 100)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size2Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size2.csv)";
+        }
+        else if (size == 1000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size3Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size3.csv)";
+        }
+        else if (size == 10000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size4Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size4.csv)";
+        }
+        else if (size == 100000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size5Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size5.csv)";
+        }
+        else if (size == 1000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size6Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size6.csv)";
+        }
+        else if (size == 10000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size7Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size7.csv)";
+        }
+        else if (size == 100000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size8Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size8.csv)";
+        }
+        else if (size == 1000000000)
+        {
+            inputFile.open(R"(filegenerators\sizefiles\almostSorted\size9Almost.txt)");
+            NameOfFile = R"(ResultsAlmost\ResultsAlmost_Size9.csv)";
+        }
 
 #endif
 
