@@ -177,7 +177,7 @@ for FileName in FileNames:
 header = ["nanoseconds", "microseconds", "milliseconds", "seconds", "hours"]
 
 if sys.platform.startswith("linux") or sys.platform == "darwin":
-    with open("results/Combined/" + fn + "/Size" + Size + "/" + acroF + ".csv", mode = "w", newline='') as comb:
+    with open("results/Combined/" + fn + "/Size" + Size + "/" + acroF + ".csv", mode = "w") as comb:
         writer = csv.writer(comb)
         writer.writerow(header)
         for line in Lines:
