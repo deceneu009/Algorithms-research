@@ -1776,10 +1776,14 @@ void RunBenchmarkReversed()
 
     inputFile.close();
 
-    std::cout << "Do you want to use median of three for quicksort?(y/n)";
-    std::cin >> answ;
+    if (size <= 10000)
+    {
+        std::cout << "Do you want to use median of three for quicksort?(y/n)";
+        std::cin >> answ;
+    }
 
-    if (answ == 'n' || size < 1000000)
+    // if size bigger than 10000 use median of three
+    if (answ == 'n')
     {
         std::cout << "Quicksort:\n";
         {
@@ -1788,7 +1792,7 @@ void RunBenchmarkReversed()
         }
     }
 
-    if (answ == 'y' || size >= 1000000)
+    if (answ == 'y' || size >= 100000)
     {
         std::cout << "Quicksort:\n";
         {
@@ -2135,10 +2139,14 @@ void RunBenchmarkAlmostSorted()
 
     inputFile.close();
 
-    std::cout << "Do you want to use median of three for quicksort?(y/n)";
-    std::cin >> answ;
+    if (size <= 10000)
+    {
+        std::cout << "Do you want to use median of three for quicksort?(y/n)";
+        std::cin >> answ;
+    }
 
-    if (answ == 'n' || size < 1000000)
+    // if size bigger than 10000 use median of three
+    if (answ == 'n')
     {
         std::cout << "Quicksort:\n";
         {
@@ -2147,7 +2155,7 @@ void RunBenchmarkAlmostSorted()
         }
     }
 
-    if (answ == 'y' || size >= 1000000)
+    if (answ == 'y' || size >= 100000)
     {
         std::cout << "Quicksort:\n";
         {
@@ -2332,6 +2340,7 @@ int main(int argc, char *argv[])
     }
     if (choice == 3)
     {
+        //for almost sorted selection sort and insertion sort are swaped...insertion sort takes less time to sort than selection sort(Talking about the results inside the .csv files)
         RunBenchmarkAlmostSorted();
     }
 
