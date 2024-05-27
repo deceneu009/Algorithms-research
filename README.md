@@ -26,3 +26,11 @@ contain the size9 using "//".
 For using the plot.py program you will need matplotlib module.You can find informations for installing the module here: https://matplotlib.org/stable/users/installing/index.html .
 
 Free storage needed: 32 gb(if you chose to generate the 1 billion elements files). Otherwise, it will be around 3 gb
+
+
+
+
+
+
+Author:Stefan-valentin Tabusca 
+University: West University of Timisoara
