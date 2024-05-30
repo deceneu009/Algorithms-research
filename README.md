@@ -29,9 +29,6 @@ Free storage needed: 32 gb(if you chose to generate the 1 billion elements files
 
 
 
-
-
-
 Author:Stefan-valentin Tabusca 
 
 University: West University of Timisoara
