@@ -38,8 +38,3 @@ If you want to plot it you will need to have different files for each plotting o
 Author:Stefan-valentin Tabusca 
 
 University: West University of Timisoara
-
-
-Author:Stefan-valentin Tabusca 
-
-University: West University of Timisoara
