@@ -29,9 +29,9 @@ Free storage needed: 32 gb(if you chose to generate the 1 billion elements files
 
 Instructions:
 
-1)Generate the files
-2)Build the executable for test.cpp(examples in compiling.txt)
-3)Run the exectuable
+1) Generate the files
+2) Build the executable for test.cpp(examples in compiling.txt)
+3) Run the exectuable
 
 If you want to plot it you will need to have different files for each plotting option.Check which files are required for what you want to plot.
 
