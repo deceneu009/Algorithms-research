@@ -34,7 +34,3 @@ Instructions:
 3) Run the exectuable
 
 If you want to plot it you will need to have different files for each plotting option.Check which files are required for what you want to plot.
-
-Author:Stefan-Valentin Tabusca 
-
-University: West University of Timisoara
