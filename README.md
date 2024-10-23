@@ -8,9 +8,9 @@ Program used for analyzing Quicksort, Merge sort, Selection sort, Insertion sort
 
 and in different sizes(from 10 - 100000000...and 1 billion just for fun and giggles, but I do not provide results for this one)
 
-The program ran on the next specs:
-
 Recommended operating systems: Linux and Windows
+
+The program ran on the next specs:
 
 CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
 
